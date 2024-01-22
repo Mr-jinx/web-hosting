@@ -1,0 +1,90 @@
+.bt {
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    border: 1px dashed red;
+    position: relative;
+}
+
+p {
+    display: inline;
+    border: 1px solid red;
+    padding: 2rem;
+
+}
+
+.sbutton {
+    box-shadow: 1px 1px 1px lightblue;
+    border-color: lightslategrey;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    left: 8%;
+    color: white;
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+li{
+    padding: 1rem;
+    background-color: brown;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: lightslategray;
+}
+
+li:active {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+#but {
+    background-color: bisque;
+    transition: transform 0.3s ease;
+}
+
+#but:active {
+    transform: translate(100px, 0px)
+    rotate(0deg) scale(2);
+}
+
+#put {
+    width: 50%;
+    transition: width 0.3s ease;
+}
+
+#put:hover {
+    width: 100%;
+}
+
+#ar {
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 100px;
+    background-color: azure;
+    transition: transform 1s, color 0.3s ease;
+}
+
+#ar:hover {
+    transform: scale(2);
+    background-color: yellow;
+}
+
+#ar:active {
+    background-color: red;
+}
